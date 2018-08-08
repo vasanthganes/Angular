@@ -1,0 +1,12 @@
+<div>
+      <h1>Home</h1>
+      <button (click)="getUsers()">Users</button>
+      <button (click)="getUser(2)">User</button>
+    
+    </div>
+
+    <p>Users List from Home component</p>
+    {{ items | json }}
+
+    <p>User Data from Home component</p>
+    {{ item | json }}
